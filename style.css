@@ -1,0 +1,16 @@
+h1 {border-style: dashed;}
+.container { position: relative; text-align: center; color:rebeccapurple;}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.container img {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid blueviolet;
+}
